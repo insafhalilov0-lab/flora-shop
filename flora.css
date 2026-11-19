@@ -5,8 +5,8 @@
 }
 
 html {
-    scroll-behavior: smooth; /* Плавная прокрутка (по желанию) */
-    scroll-padding-top: 90px; /* Отступ сверху, равен высоте твоей шапки */
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
 }
 body {
     background-color: #fff;
