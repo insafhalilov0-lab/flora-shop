@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Флора">
+    <meta name="description" content="Магазин цветов - Флора">
+    <meta name="keywords" content="цветы, магазин цветов, флора, букеты">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Флора</title>
+    <link rel="stylesheet" href="csspr/flora.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-container">
+        <div class="logo">Флора</div> 
+        <div class="nphone">+7 (987) 654-32-10</div>
+        <nav class="header-nav">
+            <ul class="header-ul">
+                <li class="header-li"><a href="#catalog">Каталог</a></li>
+                <li class="header-li"><a href="#contacts">О нас</a></li>
+                <li class="header-li"><a href="#form">Доставка</a></li>
+            </ul>
+        </nav>
+        
+        <a href="#catalog" class="btn-header">Заказать букет</a>
+    </div>
+</header>
+<main>
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Свежие <span>цветы</span> с доставкой по Казани</h1>
+            <p>Собираем букеты с любовью и доставляем точно в срок. Радуйте близких без повода или по особому случаю. Свежесть гарантируем!</p>
+        </div>
+        <div class="hero-content_2">
+            <img>
+        </div>
+    </section>
+    <section class="catalog" id="catalog">
+                    <h2>Популярные букеты</h2>
+        <div class="catalog-container">        
+            <div class="catalog-card">
+                <div class="card-info">
+                    <img src="https://avatars.mds.yandex.net/i?id=4bb80a1f71e3a064f80ad79f100af7e3f0fab77c-12811218-images-thumbs&n=13" class="catalog-img" alt="Букет">
+                    <h3>Букет "Нежность"</h3>
+                    <p>15 белых роз, эустома и декоративная зелень.</p>
+                    <div class="card-buttom">
+                        <span class="price">2 500 ₽</span>
+                        <a href="#">Купить</a>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-card">
+                <div class="card-info">
+                    <img src="https://avatars.mds.yandex.net/i?id=c3a29989dddbb760f56dcb2aa7367b2bc6e14dcf-5234434-images-thumbs&n=13" class="catalog-img" alt="Букет">
+                    <h3>Букет "Розовый закат"</h3>
+                    <p>Пионовидные розы, альстромерии и веточки эвкалипта.</p>
+                    <div class="card-buttom">
+                        <span class="price">3 800 ₽</span>
+                        <a href="#">Купить</a>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-card">
+                <div class="card-info">
+                    <img src="https://avatars.mds.yandex.net/i?id=b73dddee27c612e092aff0eec5195708433bd87d-2994189-images-thumbs&n=13" class="catalog-img" alt="Букет">
+                    <h3>Букет «Весенний микс»</h3>
+                    <p>Тюльпаны, ирисы и хризантемы в нежной упаковке.</p>
+                    <div class="card-buttom">
+                        <span class="price">2 900 ₽</span>
+                        <a href="#">Купить</a>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </section>
+    <section class="adv-section">
+        <div class="adv-container">
+            <div class="adv-two-block">
+                <div class="adv-block" id="adv-block1">
+                    <h3>Доставка за 2 часа </h3>
+                    <p>Привезем ваш букет в любую точку Казани. От 300 руб., бесплатно от 3000 руб.</p>
+                </div>
+                <div class="adv-block" id="adv-block2">
+                    <h3>Свежесть гарантируем </h3>
+                    <p>Цветы привозим напрямую с плантаций. Каждый букет собираем за 15 минут.</p>
+                </div>
+            </div>
+                <div class="adv-block" id="adv-block3">
+                    <h3> Работаем для вас</h3>
+                    <p>Без выходных и праздников, <b>с 08:00 до 22:00</b>. Поможем выбрать и оформить открытку.</p>
+                </div>
+        </div>
+    </section>
+    <section class="form-container" id="form">
+            <div class="form-name">  
+                <h2>Заказать букет</h2>
+                <p>Оставьте свой номер, и наш флорист свяжется с вами для уточнения деталей.</p>
+            </div>
+        <form action="" method="post" class="form-pole">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" name="username">
+            <label for="phone">Номер телефона</label>
+            <input type="tel" id="phone" name="phone" placeholder="+7...">
+            <label for="select">Выберите букет</label>
+            <select id="select" name="flower">
+                <option value="b1">Букет "Нежность"</option>
+                <option value="b2">Букет "Розовый закат"</option>
+                <option value="b3">Букет «Весенний микс»</option>
+            </select>
+            <button>Заказать</button>
+        </form>
+    </section>
+</main>
+    <footer class="footer" id="contacts">
+        <div class="footer-container">
+            <h2>Контактные данные</h2>
+            <nav class="footer-nav">
+                <ul class="footer-ul">
+                    <li class="footer-li">Адрес: г. Казань, ул. Цветочная, д. 8</li>
+                    <li class="footer-li">Телефон: +7 (987) 654-32-10</li>
+                    <li class="footer-li">Email: zakaz@flora-kazan.ru</li>
+                    <li class="footer-li">Режим работы: Ежедневно с 08:00 до 22:00</li>
+                </ul>
+            </nav>
+                <div class="footer-bottom">
+                    <p>Копирайт: © 2026 Цветочный магазин «Флора». Все права защищены.</p>
+                </div>
+        </div>
+    </footer>
+</body>
+</html>
