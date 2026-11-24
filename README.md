@@ -16,5 +16,5 @@
 - Адаптивная верстка
 
 ## Как посмотреть
-- [Открыть flora.html](https://github.com/insafhalilov0-lab/flora-shop/blob/main/flora.html)
-- [Открыть flora.css](https://github.com/insafhalilov0-lab/flora-shop/blob/main/flora.css)
+- [Открыть index.html](https://github.com/insafhalilov0-lab/flora-shop/blob/main/index.html)
+- [Открыть style.css](https://github.com/insafhalilov0-lab/flora-shop/blob/main/style.css)
